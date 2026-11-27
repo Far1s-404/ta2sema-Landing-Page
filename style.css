@@ -52,3 +52,6 @@ footer nav{display:flex;gap:18px}footer a{color:var(--muted)}footer a:hover{colo
 .doc .muted{color:var(--muted)}
 html[lang=en] .body.ar,html[lang=ar] .body.en{display:none}
 @media(max-width:820px){.phones{height:430px}.phone{width:190px}}
+
+.t2intro { display:none; position:fixed; inset:0; z-index:99999; align-items:center; justify-content:center; background:#0D1011; --t2w:#FFFFFF; --t2s:#BFC5C1; cursor:pointer; overflow:hidden; }:root[data-theme="light"] .t2intro { background:#ECF3EF; --t2w:#0C1713; --t2s:#52625A; }html[data-t2intro="1"] .t2intro { display:flex; }.t2vig { position:absolute; inset:0; background:radial-gradient(ellipse at 50% 40%, rgba(30,60,48,.55), rgba(13,16,17,0) 62%); opacity:0; }:root[data-theme="light"] .t2vig { display:none; }.t2in { display:grid; place-items:center; will-change:transform; }.t2in svg { grid-area:1/1; height:min(88vh,620px); width:auto; max-width:94vw; overflow:visible; }
+html[data-t2intro="1"],html[data-t2intro="1"] body{overflow:hidden}
